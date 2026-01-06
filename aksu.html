@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ақсу-Жабағылы қорығы</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .back-btn {
+            text-decoration: none;
+            color: #a29bfe;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 30px;
+            transition: 0.3s;
+        }
+
+        .back-btn:hover {
+            color: #74b9ff;
+            transform: translateX(-5px);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(to right, #a29bfe, #74b9ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+        }
+
+        /* Место для фото */
+        .main-image {
+            width: 100%;
+            height: 450px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 30px;
+            overflow: hidden;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .main-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Сурет әдемі тұруы үшін */
+        }
+
+        .info-section {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h3 {
+            color: #a29bfe;
+            font-size: 1.5rem;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #dfe6e9;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            background: rgba(108, 92, 231, 0.2);
+            padding: 15px 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(162, 155, 254, 0.3);
+        }
+
+        .stat-card span {
+            display: block;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            color: #a29bfe;
+        }
+
+        .stat-card b {
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 50px;
+            color: #636e72;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-btn">← Басты бетке қайту</a>
+
+    <h1>Ақсу-Жабағылы мемлекеттік табиғи қорығы</h1>
+
+    <div class="main-image">
+        <img src="https://qazaqgeography.kz/assets/media/kategoriya-zapovednik-aksu-dzhabagly/001.jpg" alt="Ақсу-Жабағылы табиғаты">
+    </div>
+
+    <div class="info-section">
+        <h3>Қорық туралы ақпарат</h3>
+        <p>Ақсу-Жабағылы — Қазақстанның және Орталық Азияның ең көне қорығы. Ол 1926 жылы құрылған. Қорық Батыс Тянь-Шань тауларының солтүстік-батыс бөлігінде орналасқан. Бұл жер — табиғаттың нағыз музейі іспетті.</p>
+
+        <div class="stats">
+            <div class="stat-card">
+                <span>Құрылған жылы</span>
+                <b>1926 жыл</b>
+            </div>
+            <div class="stat-card">
+                <span>Ауданы</span>
+                <b>131 934 га</b>
+            </div>
+            <div class="stat-card">
+                <span>Орналасқан жері</span>
+                <b>Түркістан обл.</b>
+            </div>
+        </div>
+
+        <h3>Флора мен фауна</h3>
+        <p>Қорық аумағында өсімдіктердің 1300-ден астам түрі өседі. Соның ішінде ең танымалы — <b>Грейг қызғалдағы</b>. Ол осы өңірдің символы болып саналады.</p>
+        <p>Жануарлар әлемі де өте бай. Мұнда қар барысы, Тянь-Шань қоңыр аюы, арқар, елік және бүркіттер мекендейді. Қорық ЮНЕСКО-ның биосфералық резерваттар тізіміне енген.</p>
+
+        <h3>Көрікті жерлері</h3>
+        <p>Ақсу өзенінің шатқалы — қорықтың ең басты көрікті жерлерінің бірі. Оның тереңдігі кей жерлерде 500 метрге дейін жетеді. Мөлдір суы мен құз жартастары кез келген адамды таңқалдырады.</p>
+    </div>
+
+    <footer>
+        &copy; 2024 Қазақстан қорықтары жобасы
+    </footer>
+</div>
+
+</body>
+</html>
